@@ -16,6 +16,9 @@
 		1851D4CC24A885810044C6F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851D4CA24A885810044C6F2 /* LaunchScreen.storyboard */; };
 		1851D4D724A885810044C6F2 /* InfosysTechnicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D4D624A885810044C6F2 /* InfosysTechnicalTestTests.swift */; };
 		1851D4E224A885810044C6F2 /* InfosysTechnicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D4E124A885810044C6F2 /* InfosysTechnicalTestUITests.swift */; };
+		2A1E0411C4FE8673829107C2 /* Pods_InfosysTechnicalTest_InfosysTechnicalTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B936529D473FC3BDCD55EADF /* Pods_InfosysTechnicalTest_InfosysTechnicalTestUITests.framework */; };
+		8880CB57E1090F0E84AC25C8 /* Pods_InfosysTechnicalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F3395CFFF54A7645AB6C4 /* Pods_InfosysTechnicalTestTests.framework */; };
+		A491C686B01BD206B35D4AFD /* Pods_InfosysTechnicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF56D61A63BD43F12B1E807 /* Pods_InfosysTechnicalTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		017AECC1B9DBA2B536AD6C04 /* Pods-InfosysTechnicalTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfosysTechnicalTestTests.debug.xcconfig"; path = "Target Support Files/Pods-InfosysTechnicalTestTests/Pods-InfosysTechnicalTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1851D4B924A8857D0044C6F2 /* InfosysTechnicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfosysTechnicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1851D4BC24A8857D0044C6F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1851D4BE24A8857D0044C6F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		1851D4DD24A885810044C6F2 /* InfosysTechnicalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfosysTechnicalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1851D4E124A885810044C6F2 /* InfosysTechnicalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosysTechnicalTestUITests.swift; sourceTree = "<group>"; };
 		1851D4E324A885810044C6F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E1AB3407AEDDA7B4081A2C2 /* Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AF56D61A63BD43F12B1E807 /* Pods_InfosysTechnicalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfosysTechnicalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FF642CE1E54781DCB4644B /* Pods-InfosysTechnicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfosysTechnicalTest.debug.xcconfig"; path = "Target Support Files/Pods-InfosysTechnicalTest/Pods-InfosysTechnicalTest.debug.xcconfig"; sourceTree = "<group>"; };
+		B936529D473FC3BDCD55EADF /* Pods_InfosysTechnicalTest_InfosysTechnicalTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfosysTechnicalTest_InfosysTechnicalTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94F3395CFFF54A7645AB6C4 /* Pods_InfosysTechnicalTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfosysTechnicalTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9566C0603858EF1D67632E2 /* Pods-InfosysTechnicalTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfosysTechnicalTestTests.release.xcconfig"; path = "Target Support Files/Pods-InfosysTechnicalTestTests/Pods-InfosysTechnicalTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		D7D7EDB895733377398F1EEA /* Pods-InfosysTechnicalTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfosysTechnicalTest.release.xcconfig"; path = "Target Support Files/Pods-InfosysTechnicalTest/Pods-InfosysTechnicalTest.release.xcconfig"; sourceTree = "<group>"; };
+		DA26564AC76EC70DD32CF5EF /* Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.release.xcconfig"; path = "Target Support Files/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A491C686B01BD206B35D4AFD /* Pods_InfosysTechnicalTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8880CB57E1090F0E84AC25C8 /* Pods_InfosysTechnicalTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A1E0411C4FE8673829107C2 /* Pods_InfosysTechnicalTest_InfosysTechnicalTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				1851D4D524A885810044C6F2 /* InfosysTechnicalTestTests */,
 				1851D4E024A885810044C6F2 /* InfosysTechnicalTestUITests */,
 				1851D4BA24A8857D0044C6F2 /* Products */,
+				44C3D33DBDDFFE916B21306E /* Pods */,
+				C4C1050D0B3C4CAE9A91FB9A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,30 @@
 			path = InfosysTechnicalTestUITests;
 			sourceTree = "<group>";
 		};
+		44C3D33DBDDFFE916B21306E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78FF642CE1E54781DCB4644B /* Pods-InfosysTechnicalTest.debug.xcconfig */,
+				D7D7EDB895733377398F1EEA /* Pods-InfosysTechnicalTest.release.xcconfig */,
+				5E1AB3407AEDDA7B4081A2C2 /* Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig */,
+				DA26564AC76EC70DD32CF5EF /* Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.release.xcconfig */,
+				017AECC1B9DBA2B536AD6C04 /* Pods-InfosysTechnicalTestTests.debug.xcconfig */,
+				C9566C0603858EF1D67632E2 /* Pods-InfosysTechnicalTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4C1050D0B3C4CAE9A91FB9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AF56D61A63BD43F12B1E807 /* Pods_InfosysTechnicalTest.framework */,
+				B936529D473FC3BDCD55EADF /* Pods_InfosysTechnicalTest_InfosysTechnicalTestUITests.framework */,
+				C94F3395CFFF54A7645AB6C4 /* Pods_InfosysTechnicalTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1851D4E624A885810044C6F2 /* Build configuration list for PBXNativeTarget "InfosysTechnicalTest" */;
 			buildPhases = (
+				3AE0EA993AEEF002A4A98588 /* [CP] Check Pods Manifest.lock */,
 				1851D4B524A8857D0044C6F2 /* Sources */,
 				1851D4B624A8857D0044C6F2 /* Frameworks */,
 				1851D4B724A8857D0044C6F2 /* Resources */,
+				45B1E166CAA4208311F39E97 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1851D4E924A885810044C6F2 /* Build configuration list for PBXNativeTarget "InfosysTechnicalTestTests" */;
 			buildPhases = (
+				E2F1869A901DB394919BE0D2 /* [CP] Check Pods Manifest.lock */,
 				1851D4CE24A885810044C6F2 /* Sources */,
 				1851D4CF24A885810044C6F2 /* Frameworks */,
 				1851D4D024A885810044C6F2 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1851D4EC24A885810044C6F2 /* Build configuration list for PBXNativeTarget "InfosysTechnicalTestUITests" */;
 			buildPhases = (
+				C7B433D922CF5D18355BCDDC /* [CP] Check Pods Manifest.lock */,
 				1851D4D924A885810044C6F2 /* Sources */,
 				1851D4DA24A885810044C6F2 /* Frameworks */,
 				1851D4DB24A885810044C6F2 /* Resources */,
+				ABD6AFB462B63DFD7E7CD6EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +301,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE0EA993AEEF002A4A98588 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfosysTechnicalTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B1E166CAA4208311F39E97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfosysTechnicalTest/Pods-InfosysTechnicalTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfosysTechnicalTest/Pods-InfosysTechnicalTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InfosysTechnicalTest/Pods-InfosysTechnicalTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABD6AFB462B63DFD7E7CD6EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B433D922CF5D18355BCDDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F1869A901DB394919BE0D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfosysTechnicalTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1851D4B524A8857D0044C6F2 /* Sources */ = {
@@ -435,6 +584,7 @@
 		};
 		1851D4E724A885810044C6F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78FF642CE1E54781DCB4644B /* Pods-InfosysTechnicalTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +602,7 @@
 		};
 		1851D4E824A885810044C6F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D7EDB895733377398F1EEA /* Pods-InfosysTechnicalTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +620,7 @@
 		};
 		1851D4EA24A885810044C6F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 017AECC1B9DBA2B536AD6C04 /* Pods-InfosysTechnicalTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		1851D4EB24A885810044C6F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9566C0603858EF1D67632E2 /* Pods-InfosysTechnicalTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +664,7 @@
 		};
 		1851D4ED24A885810044C6F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E1AB3407AEDDA7B4081A2C2 /* Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +684,7 @@
 		};
 		1851D4EE24A885810044C6F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA26564AC76EC70DD32CF5EF /* Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
