@@ -8,7 +8,7 @@ target 'InfosysTechnicalTest' do
   # Pods for InfosysTechnicalTest
 
 pod 'Alamofire'
-pod 'Masonry'
+pod 'AlamofireImage'
 
   target 'InfosysTechnicalTestTests' do
     inherit! :search_paths
