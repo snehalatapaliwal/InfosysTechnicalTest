@@ -1,16 +1,20 @@
 PODS:
   - Alamofire (5.2.1)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - Alamofire
+  - Masonry
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Masonry
 
 SPEC CHECKSUMS:
   Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: b47f3d8133d07b3b41a88292f2769105d84a7819
+PODFILE CHECKSUM: 734c07f35b1c39aa6bb707261b6c925f8eb18549
 
 COCOAPODS: 1.9.3
