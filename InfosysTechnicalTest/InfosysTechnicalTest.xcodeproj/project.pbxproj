@@ -14,6 +14,9 @@
 		1851D4D724A885810044C6F2 /* InfosysTechnicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D4D624A885810044C6F2 /* InfosysTechnicalTestTests.swift */; };
 		1851D4E224A885810044C6F2 /* InfosysTechnicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D4E124A885810044C6F2 /* InfosysTechnicalTestUITests.swift */; };
 		1851D4F124A8B7710044C6F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851D4F024A8B7710044C6F2 /* LaunchScreen.storyboard */; };
+		1851D4F924A90BA90044C6F2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D4F824A90BA80044C6F2 /* APIClient.swift */; };
+		1851D4FD24A9DF690044C6F2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D4FC24A9DF690044C6F2 /* Model.swift */; };
+		1851D4FF24A9DF860044C6F2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D4FE24A9DF860044C6F2 /* ViewModel.swift */; };
 		2A1E0411C4FE8673829107C2 /* Pods_InfosysTechnicalTest_InfosysTechnicalTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B936529D473FC3BDCD55EADF /* Pods_InfosysTechnicalTest_InfosysTechnicalTestUITests.framework */; };
 		8880CB57E1090F0E84AC25C8 /* Pods_InfosysTechnicalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F3395CFFF54A7645AB6C4 /* Pods_InfosysTechnicalTestTests.framework */; };
 		A491C686B01BD206B35D4AFD /* Pods_InfosysTechnicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF56D61A63BD43F12B1E807 /* Pods_InfosysTechnicalTest.framework */; };
@@ -51,6 +54,9 @@
 		1851D4E124A885810044C6F2 /* InfosysTechnicalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfosysTechnicalTestUITests.swift; sourceTree = "<group>"; };
 		1851D4E324A885810044C6F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1851D4F024A8B7710044C6F2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1851D4F824A90BA80044C6F2 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		1851D4FC24A9DF690044C6F2 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1851D4FE24A9DF860044C6F2 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5E1AB3407AEDDA7B4081A2C2 /* Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AF56D61A63BD43F12B1E807 /* Pods_InfosysTechnicalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfosysTechnicalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FF642CE1E54781DCB4644B /* Pods-InfosysTechnicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfosysTechnicalTest.debug.xcconfig"; path = "Target Support Files/Pods-InfosysTechnicalTest/Pods-InfosysTechnicalTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +120,11 @@
 		1851D4BB24A8857D0044C6F2 /* InfosysTechnicalTest */ = {
 			isa = PBXGroup;
 			children = (
+				1851D4FB24A9DF590044C6F2 /* Model */,
+				1851D4FA24A9DEC40044C6F2 /* viewModel */,
 				1851D4BC24A8857D0044C6F2 /* AppDelegate.swift */,
 				1851D4C024A8857D0044C6F2 /* ViewController.swift */,
+				1851D4F824A90BA80044C6F2 /* APIClient.swift */,
 				1851D4C824A885810044C6F2 /* Assets.xcassets */,
 				1851D4CD24A885810044C6F2 /* Info.plist */,
 				1851D4C524A8857D0044C6F2 /* InfosysTechnicalTest.xcdatamodeld */,
@@ -140,6 +149,22 @@
 				1851D4E324A885810044C6F2 /* Info.plist */,
 			);
 			path = InfosysTechnicalTestUITests;
+			sourceTree = "<group>";
+		};
+		1851D4FA24A9DEC40044C6F2 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1851D4FE24A9DF860044C6F2 /* ViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		1851D4FB24A9DF590044C6F2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1851D4FC24A9DF690044C6F2 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		44C3D33DBDDFFE916B21306E /* Pods */ = {
@@ -402,9 +427,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1851D4FD24A9DF690044C6F2 /* Model.swift in Sources */,
 				1851D4C124A8857D0044C6F2 /* ViewController.swift in Sources */,
 				1851D4C724A8857D0044C6F2 /* InfosysTechnicalTest.xcdatamodeld in Sources */,
 				1851D4BD24A8857D0044C6F2 /* AppDelegate.swift in Sources */,
+				1851D4FF24A9DF860044C6F2 /* ViewModel.swift in Sources */,
+				1851D4F924A90BA90044C6F2 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
