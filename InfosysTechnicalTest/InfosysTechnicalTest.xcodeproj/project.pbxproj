@@ -17,6 +17,7 @@
 		1851D4F924A90BA90044C6F2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D4F824A90BA80044C6F2 /* APIClient.swift */; };
 		1851D4FD24A9DF690044C6F2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D4FC24A9DF690044C6F2 /* Model.swift */; };
 		1851D4FF24A9DF860044C6F2 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D4FE24A9DF860044C6F2 /* ViewModel.swift */; };
+		1851D50224A9EA420044C6F2 /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D50124A9EA420044C6F2 /* tableViewCell.swift */; };
 		2A1E0411C4FE8673829107C2 /* Pods_InfosysTechnicalTest_InfosysTechnicalTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B936529D473FC3BDCD55EADF /* Pods_InfosysTechnicalTest_InfosysTechnicalTestUITests.framework */; };
 		8880CB57E1090F0E84AC25C8 /* Pods_InfosysTechnicalTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94F3395CFFF54A7645AB6C4 /* Pods_InfosysTechnicalTestTests.framework */; };
 		A491C686B01BD206B35D4AFD /* Pods_InfosysTechnicalTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF56D61A63BD43F12B1E807 /* Pods_InfosysTechnicalTest.framework */; };
@@ -57,6 +58,7 @@
 		1851D4F824A90BA80044C6F2 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		1851D4FC24A9DF690044C6F2 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		1851D4FE24A9DF860044C6F2 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1851D50124A9EA420044C6F2 /* tableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
 		5E1AB3407AEDDA7B4081A2C2 /* Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests/Pods-InfosysTechnicalTest-InfosysTechnicalTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AF56D61A63BD43F12B1E807 /* Pods_InfosysTechnicalTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfosysTechnicalTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78FF642CE1E54781DCB4644B /* Pods-InfosysTechnicalTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfosysTechnicalTest.debug.xcconfig"; path = "Target Support Files/Pods-InfosysTechnicalTest/Pods-InfosysTechnicalTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		1851D4BB24A8857D0044C6F2 /* InfosysTechnicalTest */ = {
 			isa = PBXGroup;
 			children = (
+				1851D50024A9EA130044C6F2 /* CustomCell */,
 				1851D4FB24A9DF590044C6F2 /* Model */,
 				1851D4FA24A9DEC40044C6F2 /* viewModel */,
 				1851D4BC24A8857D0044C6F2 /* AppDelegate.swift */,
@@ -165,6 +168,14 @@
 				1851D4FC24A9DF690044C6F2 /* Model.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		1851D50024A9EA130044C6F2 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				1851D50124A9EA420044C6F2 /* tableViewCell.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 		44C3D33DBDDFFE916B21306E /* Pods */ = {
@@ -431,6 +442,7 @@
 				1851D4C124A8857D0044C6F2 /* ViewController.swift in Sources */,
 				1851D4C724A8857D0044C6F2 /* InfosysTechnicalTest.xcdatamodeld in Sources */,
 				1851D4BD24A8857D0044C6F2 /* AppDelegate.swift in Sources */,
+				1851D50224A9EA420044C6F2 /* tableViewCell.swift in Sources */,
 				1851D4FF24A9DF860044C6F2 /* ViewModel.swift in Sources */,
 				1851D4F924A90BA90044C6F2 /* APIClient.swift in Sources */,
 			);

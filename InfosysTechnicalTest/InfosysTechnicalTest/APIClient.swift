@@ -12,8 +12,7 @@ import CoreData
 class APIClient: NSObject {
     
     func fetchList(completion: @escaping (NSArray?) -> Void) {
-        
-        guard let url = URL(string: "https://5e99a9b1bc561b0016af3540.mockapi.io/jet2/api/v1/blogs?page=1&limit=10") else {
+        guard let url = URL(string: "https://dl.dropboxusercontent.com/s/2iodh4vg0eortkl/facts.json") else {
             print("Error unwrapping URL"); return }
         
         let session = URLSession.shared
@@ -24,7 +23,7 @@ class APIClient: NSObject {
                     completion(responseJSON)
                 }
             } catch {
-                completion(nil)
+                completion(NSArray())
                 print("Error getting API data: \(error.localizedDescription)")
             }
         }
